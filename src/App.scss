@@ -1,0 +1,40 @@
+// Основной контейнер приложения
+.app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  // Заголовок и кнопка в верхней части приложения
+  &__header {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+
+    &--sticky {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    margin-bottom: 20px;
+
+    &--add-news {
+      font-size: 16px;
+    }
+  }
+
+  // Список новостей
+  &__news-list {
+    width: 100%;
+    max-width: 600px;
+  }
+}
