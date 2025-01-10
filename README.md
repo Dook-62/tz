@@ -27,3 +27,7 @@
 ## Требования
 
 - **Node.js** версии `v18.20.5` или выше.
+
+
+## Ссылка на проект
+- https://enchanting-heliotrope-034488.netlify.app/
